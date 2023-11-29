@@ -2,10 +2,10 @@
 
 import aws_cdk as cdk
 
-from cdk_sc_level2_workshop.cdk_sc_level2_workshop_stack import CdkScLevel2WorkshopStack
+from cdk_sc_s3_static_site_stack.cdk_sc_s3_static_site_stack import CdkScS3StaticSite
 
 
 app = cdk.App()
-CdkScLevel2WorkshopStack(app, "CdkScLevel2WorkshopStack")
+CdkScS3StaticSite(app, "CdkS3StaticSite")
 
 app.synth()

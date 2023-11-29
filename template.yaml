@@ -1,0 +1,624 @@
+Resources:
+  TagOptions0c32bdc4a12e0AB978BA:
+    Type: AWS::ServiceCatalog::TagOption
+    Properties:
+      Active: true
+      Key: Cost Center
+      Value: "1111"
+    Metadata:
+      aws:cdk:path: CdkS3StaticSite/TagOptions/0c32bdc4a12e
+  TagOptions247d9fbb04b00B9591B8:
+    Type: AWS::ServiceCatalog::TagOption
+    Properties:
+      Active: true
+      Key: Cost Center
+      Value: "8912"
+    Metadata:
+      aws:cdk:path: CdkS3StaticSite/TagOptions/247d9fbb04b0
+  TagOptionsae4090912c53BE2E7631:
+    Type: AWS::ServiceCatalog::TagOption
+    Properties:
+      Active: true
+      Key: Cost Center
+      Value: "1213"
+    Metadata:
+      aws:cdk:path: CdkS3StaticSite/TagOptions/ae4090912c53
+  TagOptions185a01d1d8bbCE909401:
+    Type: AWS::ServiceCatalog::TagOption
+    Properties:
+      Active: true
+      Key: Environment
+      Value: Test
+    Metadata:
+      aws:cdk:path: CdkS3StaticSite/TagOptions/185a01d1d8bb
+  TagOptions7d89cfbd66b6B9F047DF:
+    Type: AWS::ServiceCatalog::TagOption
+    Properties:
+      Active: true
+      Key: Environment
+      Value: Dev
+    Metadata:
+      aws:cdk:path: CdkS3StaticSite/TagOptions/7d89cfbd66b6
+  TagOptions0a2c536b9a0fA105BEF3:
+    Type: AWS::ServiceCatalog::TagOption
+    Properties:
+      Active: true
+      Key: Environment
+      Value: Production
+    Metadata:
+      aws:cdk:path: CdkS3StaticSite/TagOptions/0a2c536b9a0f
+  TagOptions6ff822ac34c7AB207287:
+    Type: AWS::ServiceCatalog::TagOption
+    Properties:
+      Active: true
+      Key: Department
+      Value: Digital
+    Metadata:
+      aws:cdk:path: CdkS3StaticSite/TagOptions/6ff822ac34c7
+  TagOptionsd0e3753d24531316E7F9:
+    Type: AWS::ServiceCatalog::TagOption
+    Properties:
+      Active: true
+      Key: Department
+      Value: Commercial
+    Metadata:
+      aws:cdk:path: CdkS3StaticSite/TagOptions/d0e3753d2453
+  TagOptionsc00138ded72f4E54E4E2:
+    Type: AWS::ServiceCatalog::TagOption
+    Properties:
+      Active: true
+      Key: Department
+      Value: Manufacturing
+    Metadata:
+      aws:cdk:path: CdkS3StaticSite/TagOptions/c00138ded72f
+  TagOptionse8ce7428055e477918FD:
+    Type: AWS::ServiceCatalog::TagOption
+    Properties:
+      Active: true
+      Key: Department
+      Value: Research
+    Metadata:
+      aws:cdk:path: CdkS3StaticSite/TagOptions/e8ce7428055e
+  TagOptions86e165a93596F8057579:
+    Type: AWS::ServiceCatalog::TagOption
+    Properties:
+      Active: true
+      Key: Compliance
+      Value: GXP
+    Metadata:
+      aws:cdk:path: CdkS3StaticSite/TagOptions/86e165a93596
+  TagOptions188c120fbc52D6E251D6:
+    Type: AWS::ServiceCatalog::TagOption
+    Properties:
+      Active: true
+      Key: Compliance
+      Value: NON-GXP
+    Metadata:
+      aws:cdk:path: CdkS3StaticSite/TagOptions/188c120fbc52
+  TagOptionsdc22cb1664506E7145BB:
+    Type: AWS::ServiceCatalog::TagOption
+    Properties:
+      Active: true
+      Key: Compliance
+      Value: PII
+    Metadata:
+      aws:cdk:path: CdkS3StaticSite/TagOptions/dc22cb166450
+  TagOptionse39e46091c258F668EB5:
+    Type: AWS::ServiceCatalog::TagOption
+    Properties:
+      Active: true
+      Key: Compliance
+      Value: NONE
+    Metadata:
+      aws:cdk:path: CdkS3StaticSite/TagOptions/e39e46091c25
+  TagOptions1f61e74805845A01F913:
+    Type: AWS::ServiceCatalog::TagOption
+    Properties:
+      Active: true
+      Key: Application Name
+      Value: pi
+    Metadata:
+      aws:cdk:path: CdkS3StaticSite/TagOptions/1f61e7480584
+  TagOptions4c4b566bce5272A05536:
+    Type: AWS::ServiceCatalog::TagOption
+    Properties:
+      Active: true
+      Key: Application Name
+      Value: deltav
+    Metadata:
+      aws:cdk:path: CdkS3StaticSite/TagOptions/4c4b566bce52
+  TagOptions2d257ed9efdd670334CD:
+    Type: AWS::ServiceCatalog::TagOption
+    Properties:
+      Active: true
+      Key: Application Name
+      Value: statistica
+    Metadata:
+      aws:cdk:path: CdkS3StaticSite/TagOptions/2d257ed9efdd
+  TagOptionsa86a8aff1a3eF7932DE6:
+    Type: AWS::ServiceCatalog::TagOption
+    Properties:
+      Active: true
+      Key: Application Name
+      Value: spotfire
+    Metadata:
+      aws:cdk:path: CdkS3StaticSite/TagOptions/a86a8aff1a3e
+  TagOptions83f0a1c130a3A143430D:
+    Type: AWS::ServiceCatalog::TagOption
+    Properties:
+      Active: true
+      Key: Application Name
+      Value: oc3
+    Metadata:
+      aws:cdk:path: CdkS3StaticSite/TagOptions/83f0a1c130a3
+  InfrastructurePortfolio5459D943:
+    Type: AWS::ServiceCatalog::Portfolio
+    Properties:
+      Description: Potfolio with approved list of infrastructure products
+      DisplayName: Infrastructure Portfolio
+      ProviderName: Cloud Infra Team
+    Metadata:
+      aws:cdk:path: CdkS3StaticSite/InfrastructurePortfolio/Resource
+  InfrastructurePortfolioTagOptionAssociationd207d04042622DD55910:
+    Type: AWS::ServiceCatalog::TagOptionAssociation
+    Properties:
+      ResourceId:
+        Ref: InfrastructurePortfolio5459D943
+      TagOptionId:
+        Ref: TagOptions0c32bdc4a12e0AB978BA
+    Metadata:
+      aws:cdk:path: CdkS3StaticSite/InfrastructurePortfolio/TagOptionAssociationd207d0404262
+  InfrastructurePortfolioTagOptionAssociation9b8198da23b208723498:
+    Type: AWS::ServiceCatalog::TagOptionAssociation
+    Properties:
+      ResourceId:
+        Ref: InfrastructurePortfolio5459D943
+      TagOptionId:
+        Ref: TagOptions247d9fbb04b00B9591B8
+    Metadata:
+      aws:cdk:path: CdkS3StaticSite/InfrastructurePortfolio/TagOptionAssociation9b8198da23b2
+  InfrastructurePortfolioTagOptionAssociation6c1b63fa63877C85AFDE:
+    Type: AWS::ServiceCatalog::TagOptionAssociation
+    Properties:
+      ResourceId:
+        Ref: InfrastructurePortfolio5459D943
+      TagOptionId:
+        Ref: TagOptionsae4090912c53BE2E7631
+    Metadata:
+      aws:cdk:path: CdkS3StaticSite/InfrastructurePortfolio/TagOptionAssociation6c1b63fa6387
+  InfrastructurePortfolioTagOptionAssociationb4d8b95be3dc517D9006:
+    Type: AWS::ServiceCatalog::TagOptionAssociation
+    Properties:
+      ResourceId:
+        Ref: InfrastructurePortfolio5459D943
+      TagOptionId:
+        Ref: TagOptions185a01d1d8bbCE909401
+    Metadata:
+      aws:cdk:path: CdkS3StaticSite/InfrastructurePortfolio/TagOptionAssociationb4d8b95be3dc
+  InfrastructurePortfolioTagOptionAssociationb0a0f88d86cc94E303AA:
+    Type: AWS::ServiceCatalog::TagOptionAssociation
+    Properties:
+      ResourceId:
+        Ref: InfrastructurePortfolio5459D943
+      TagOptionId:
+        Ref: TagOptions7d89cfbd66b6B9F047DF
+    Metadata:
+      aws:cdk:path: CdkS3StaticSite/InfrastructurePortfolio/TagOptionAssociationb0a0f88d86cc
+  InfrastructurePortfolioTagOptionAssociationdbe7e712a8963791B34F:
+    Type: AWS::ServiceCatalog::TagOptionAssociation
+    Properties:
+      ResourceId:
+        Ref: InfrastructurePortfolio5459D943
+      TagOptionId:
+        Ref: TagOptions0a2c536b9a0fA105BEF3
+    Metadata:
+      aws:cdk:path: CdkS3StaticSite/InfrastructurePortfolio/TagOptionAssociationdbe7e712a896
+  InfrastructurePortfolioTagOptionAssociation8b160dbf72422012168F:
+    Type: AWS::ServiceCatalog::TagOptionAssociation
+    Properties:
+      ResourceId:
+        Ref: InfrastructurePortfolio5459D943
+      TagOptionId:
+        Ref: TagOptions6ff822ac34c7AB207287
+    Metadata:
+      aws:cdk:path: CdkS3StaticSite/InfrastructurePortfolio/TagOptionAssociation8b160dbf7242
+  InfrastructurePortfolioTagOptionAssociation44fbf397618fB3B2E679:
+    Type: AWS::ServiceCatalog::TagOptionAssociation
+    Properties:
+      ResourceId:
+        Ref: InfrastructurePortfolio5459D943
+      TagOptionId:
+        Ref: TagOptionsd0e3753d24531316E7F9
+    Metadata:
+      aws:cdk:path: CdkS3StaticSite/InfrastructurePortfolio/TagOptionAssociation44fbf397618f
+  InfrastructurePortfolioTagOptionAssociation6df2957c18df8D6D6DAC:
+    Type: AWS::ServiceCatalog::TagOptionAssociation
+    Properties:
+      ResourceId:
+        Ref: InfrastructurePortfolio5459D943
+      TagOptionId:
+        Ref: TagOptionsc00138ded72f4E54E4E2
+    Metadata:
+      aws:cdk:path: CdkS3StaticSite/InfrastructurePortfolio/TagOptionAssociation6df2957c18df
+  InfrastructurePortfolioTagOptionAssociation3ad17f84fec1E6F4B070:
+    Type: AWS::ServiceCatalog::TagOptionAssociation
+    Properties:
+      ResourceId:
+        Ref: InfrastructurePortfolio5459D943
+      TagOptionId:
+        Ref: TagOptionse8ce7428055e477918FD
+    Metadata:
+      aws:cdk:path: CdkS3StaticSite/InfrastructurePortfolio/TagOptionAssociation3ad17f84fec1
+  InfrastructurePortfolioTagOptionAssociationf0fdf36acd4f409E16C0:
+    Type: AWS::ServiceCatalog::TagOptionAssociation
+    Properties:
+      ResourceId:
+        Ref: InfrastructurePortfolio5459D943
+      TagOptionId:
+        Ref: TagOptions86e165a93596F8057579
+    Metadata:
+      aws:cdk:path: CdkS3StaticSite/InfrastructurePortfolio/TagOptionAssociationf0fdf36acd4f
+  InfrastructurePortfolioTagOptionAssociation2ae2262bf574D810EFBC:
+    Type: AWS::ServiceCatalog::TagOptionAssociation
+    Properties:
+      ResourceId:
+        Ref: InfrastructurePortfolio5459D943
+      TagOptionId:
+        Ref: TagOptions188c120fbc52D6E251D6
+    Metadata:
+      aws:cdk:path: CdkS3StaticSite/InfrastructurePortfolio/TagOptionAssociation2ae2262bf574
+  InfrastructurePortfolioTagOptionAssociation5ce079996c800BBD98B0:
+    Type: AWS::ServiceCatalog::TagOptionAssociation
+    Properties:
+      ResourceId:
+        Ref: InfrastructurePortfolio5459D943
+      TagOptionId:
+        Ref: TagOptionsdc22cb1664506E7145BB
+    Metadata:
+      aws:cdk:path: CdkS3StaticSite/InfrastructurePortfolio/TagOptionAssociation5ce079996c80
+  InfrastructurePortfolioTagOptionAssociationfeae50c5e49753B904B9:
+    Type: AWS::ServiceCatalog::TagOptionAssociation
+    Properties:
+      ResourceId:
+        Ref: InfrastructurePortfolio5459D943
+      TagOptionId:
+        Ref: TagOptionse39e46091c258F668EB5
+    Metadata:
+      aws:cdk:path: CdkS3StaticSite/InfrastructurePortfolio/TagOptionAssociationfeae50c5e497
+  InfrastructurePortfolioTagOptionAssociationdd4d0b1d4c88FBCA1CC1:
+    Type: AWS::ServiceCatalog::TagOptionAssociation
+    Properties:
+      ResourceId:
+        Ref: InfrastructurePortfolio5459D943
+      TagOptionId:
+        Ref: TagOptions1f61e74805845A01F913
+    Metadata:
+      aws:cdk:path: CdkS3StaticSite/InfrastructurePortfolio/TagOptionAssociationdd4d0b1d4c88
+  InfrastructurePortfolioTagOptionAssociation36e2351bd7c8440E4185:
+    Type: AWS::ServiceCatalog::TagOptionAssociation
+    Properties:
+      ResourceId:
+        Ref: InfrastructurePortfolio5459D943
+      TagOptionId:
+        Ref: TagOptions4c4b566bce5272A05536
+    Metadata:
+      aws:cdk:path: CdkS3StaticSite/InfrastructurePortfolio/TagOptionAssociation36e2351bd7c8
+  InfrastructurePortfolioTagOptionAssociationc72271bc67927E573366:
+    Type: AWS::ServiceCatalog::TagOptionAssociation
+    Properties:
+      ResourceId:
+        Ref: InfrastructurePortfolio5459D943
+      TagOptionId:
+        Ref: TagOptions2d257ed9efdd670334CD
+    Metadata:
+      aws:cdk:path: CdkS3StaticSite/InfrastructurePortfolio/TagOptionAssociationc72271bc6792
+  InfrastructurePortfolioTagOptionAssociation42bafad858058F4F63DA:
+    Type: AWS::ServiceCatalog::TagOptionAssociation
+    Properties:
+      ResourceId:
+        Ref: InfrastructurePortfolio5459D943
+      TagOptionId:
+        Ref: TagOptionsa86a8aff1a3eF7932DE6
+    Metadata:
+      aws:cdk:path: CdkS3StaticSite/InfrastructurePortfolio/TagOptionAssociation42bafad85805
+  InfrastructurePortfolioTagOptionAssociation94a3d276b02f2772FD62:
+    Type: AWS::ServiceCatalog::TagOptionAssociation
+    Properties:
+      ResourceId:
+        Ref: InfrastructurePortfolio5459D943
+      TagOptionId:
+        Ref: TagOptions83f0a1c130a3A143430D
+    Metadata:
+      aws:cdk:path: CdkS3StaticSite/InfrastructurePortfolio/TagOptionAssociation94a3d276b02f
+  InfrastructurePortfolioPortfolioProductAssociation0c2f130a7566CCA54535:
+    Type: AWS::ServiceCatalog::PortfolioProductAssociation
+    Properties:
+      PortfolioId:
+        Ref: InfrastructurePortfolio5459D943
+      ProductId:
+        Ref: SCProductS3StaticSite388335D1
+    Metadata:
+      aws:cdk:path: CdkS3StaticSite/InfrastructurePortfolio/PortfolioProductAssociation0c2f130a7566
+  SCProductS3StaticSite388335D1:
+    Type: AWS::ServiceCatalog::CloudFormationProduct
+    Properties:
+      Description: Host static sites in aws using S3, cloudfront. It creates a private S3 bucket and uses S3 endpoint as an origin in cloudfront and Origin Access Control (OAC) to access the S3 objects.
+      Name: S3_CloudFront
+      Owner: kliu
+      ProvisioningArtifactParameters:
+        - DisableTemplateValidation: false
+          Info:
+            LoadTemplateFromURL:
+              Fn::Sub: https://s3.${AWS::Region}.${AWS::URLSuffix}/cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/66ec6dc631d610ffb3d97c62ac4d74464d0fef5d24a85a5ea6b76c18e5f9cf12.json
+          Name: v1.0
+    Metadata:
+      aws:cdk:path: CdkS3StaticSite/SCProduct_S3_Static_Site/Resource
+  SCProductS3StaticSiteTagOptionAssociation3058fc45c55669D220A5:
+    Type: AWS::ServiceCatalog::TagOptionAssociation
+    Properties:
+      ResourceId:
+        Ref: SCProductS3StaticSite388335D1
+      TagOptionId:
+        Ref: TagOptions0c32bdc4a12e0AB978BA
+    Metadata:
+      aws:cdk:path: CdkS3StaticSite/SCProduct_S3_Static_Site/TagOptionAssociation3058fc45c556
+  SCProductS3StaticSiteTagOptionAssociation2f095945c054329B015E:
+    Type: AWS::ServiceCatalog::TagOptionAssociation
+    Properties:
+      ResourceId:
+        Ref: SCProductS3StaticSite388335D1
+      TagOptionId:
+        Ref: TagOptions247d9fbb04b00B9591B8
+    Metadata:
+      aws:cdk:path: CdkS3StaticSite/SCProduct_S3_Static_Site/TagOptionAssociation2f095945c054
+  SCProductS3StaticSiteTagOptionAssociatione274ba45a28e36030C56:
+    Type: AWS::ServiceCatalog::TagOptionAssociation
+    Properties:
+      ResourceId:
+        Ref: SCProductS3StaticSite388335D1
+      TagOptionId:
+        Ref: TagOptionsae4090912c53BE2E7631
+    Metadata:
+      aws:cdk:path: CdkS3StaticSite/SCProduct_S3_Static_Site/TagOptionAssociatione274ba45a28e
+  SCProductS3StaticSiteTagOptionAssociationc06e5b2a169e60AF3514:
+    Type: AWS::ServiceCatalog::TagOptionAssociation
+    Properties:
+      ResourceId:
+        Ref: SCProductS3StaticSite388335D1
+      TagOptionId:
+        Ref: TagOptions185a01d1d8bbCE909401
+    Metadata:
+      aws:cdk:path: CdkS3StaticSite/SCProduct_S3_Static_Site/TagOptionAssociationc06e5b2a169e
+  SCProductS3StaticSiteTagOptionAssociation1d0ba48b48c2425F7A71:
+    Type: AWS::ServiceCatalog::TagOptionAssociation
+    Properties:
+      ResourceId:
+        Ref: SCProductS3StaticSite388335D1
+      TagOptionId:
+        Ref: TagOptions7d89cfbd66b6B9F047DF
+    Metadata:
+      aws:cdk:path: CdkS3StaticSite/SCProduct_S3_Static_Site/TagOptionAssociation1d0ba48b48c2
+  SCProductS3StaticSiteTagOptionAssociationfeb0b4544e6cABC628DA:
+    Type: AWS::ServiceCatalog::TagOptionAssociation
+    Properties:
+      ResourceId:
+        Ref: SCProductS3StaticSite388335D1
+      TagOptionId:
+        Ref: TagOptions0a2c536b9a0fA105BEF3
+    Metadata:
+      aws:cdk:path: CdkS3StaticSite/SCProduct_S3_Static_Site/TagOptionAssociationfeb0b4544e6c
+  SCProductS3StaticSiteTagOptionAssociationde52a19a088a38C2919F:
+    Type: AWS::ServiceCatalog::TagOptionAssociation
+    Properties:
+      ResourceId:
+        Ref: SCProductS3StaticSite388335D1
+      TagOptionId:
+        Ref: TagOptions6ff822ac34c7AB207287
+    Metadata:
+      aws:cdk:path: CdkS3StaticSite/SCProduct_S3_Static_Site/TagOptionAssociationde52a19a088a
+  SCProductS3StaticSiteTagOptionAssociationa1a33da81b609CCA0E31:
+    Type: AWS::ServiceCatalog::TagOptionAssociation
+    Properties:
+      ResourceId:
+        Ref: SCProductS3StaticSite388335D1
+      TagOptionId:
+        Ref: TagOptionsd0e3753d24531316E7F9
+    Metadata:
+      aws:cdk:path: CdkS3StaticSite/SCProduct_S3_Static_Site/TagOptionAssociationa1a33da81b60
+  SCProductS3StaticSiteTagOptionAssociationf8a1029818a14B4F572C:
+    Type: AWS::ServiceCatalog::TagOptionAssociation
+    Properties:
+      ResourceId:
+        Ref: SCProductS3StaticSite388335D1
+      TagOptionId:
+        Ref: TagOptionsc00138ded72f4E54E4E2
+    Metadata:
+      aws:cdk:path: CdkS3StaticSite/SCProduct_S3_Static_Site/TagOptionAssociationf8a1029818a1
+  SCProductS3StaticSiteTagOptionAssociation1ad7c680ba144DAD173E:
+    Type: AWS::ServiceCatalog::TagOptionAssociation
+    Properties:
+      ResourceId:
+        Ref: SCProductS3StaticSite388335D1
+      TagOptionId:
+        Ref: TagOptionse8ce7428055e477918FD
+    Metadata:
+      aws:cdk:path: CdkS3StaticSite/SCProduct_S3_Static_Site/TagOptionAssociation1ad7c680ba14
+  SCProductS3StaticSiteTagOptionAssociation3453beb94a9a2B623311:
+    Type: AWS::ServiceCatalog::TagOptionAssociation
+    Properties:
+      ResourceId:
+        Ref: SCProductS3StaticSite388335D1
+      TagOptionId:
+        Ref: TagOptions86e165a93596F8057579
+    Metadata:
+      aws:cdk:path: CdkS3StaticSite/SCProduct_S3_Static_Site/TagOptionAssociation3453beb94a9a
+  SCProductS3StaticSiteTagOptionAssociation01b46879919cD6BEC9CE:
+    Type: AWS::ServiceCatalog::TagOptionAssociation
+    Properties:
+      ResourceId:
+        Ref: SCProductS3StaticSite388335D1
+      TagOptionId:
+        Ref: TagOptions188c120fbc52D6E251D6
+    Metadata:
+      aws:cdk:path: CdkS3StaticSite/SCProduct_S3_Static_Site/TagOptionAssociation01b46879919c
+  SCProductS3StaticSiteTagOptionAssociation2148bcebff9dD5EE7F55:
+    Type: AWS::ServiceCatalog::TagOptionAssociation
+    Properties:
+      ResourceId:
+        Ref: SCProductS3StaticSite388335D1
+      TagOptionId:
+        Ref: TagOptionsdc22cb1664506E7145BB
+    Metadata:
+      aws:cdk:path: CdkS3StaticSite/SCProduct_S3_Static_Site/TagOptionAssociation2148bcebff9d
+  SCProductS3StaticSiteTagOptionAssociationb0f848e4e1299EA4FA95:
+    Type: AWS::ServiceCatalog::TagOptionAssociation
+    Properties:
+      ResourceId:
+        Ref: SCProductS3StaticSite388335D1
+      TagOptionId:
+        Ref: TagOptionse39e46091c258F668EB5
+    Metadata:
+      aws:cdk:path: CdkS3StaticSite/SCProduct_S3_Static_Site/TagOptionAssociationb0f848e4e129
+  SCProductS3StaticSiteTagOptionAssociation737b62f6f701A0E53EB7:
+    Type: AWS::ServiceCatalog::TagOptionAssociation
+    Properties:
+      ResourceId:
+        Ref: SCProductS3StaticSite388335D1
+      TagOptionId:
+        Ref: TagOptions1f61e74805845A01F913
+    Metadata:
+      aws:cdk:path: CdkS3StaticSite/SCProduct_S3_Static_Site/TagOptionAssociation737b62f6f701
+  SCProductS3StaticSiteTagOptionAssociation623e4191e79f985E5303:
+    Type: AWS::ServiceCatalog::TagOptionAssociation
+    Properties:
+      ResourceId:
+        Ref: SCProductS3StaticSite388335D1
+      TagOptionId:
+        Ref: TagOptions4c4b566bce5272A05536
+    Metadata:
+      aws:cdk:path: CdkS3StaticSite/SCProduct_S3_Static_Site/TagOptionAssociation623e4191e79f
+  SCProductS3StaticSiteTagOptionAssociation789b6ca5d3e9C130E615:
+    Type: AWS::ServiceCatalog::TagOptionAssociation
+    Properties:
+      ResourceId:
+        Ref: SCProductS3StaticSite388335D1
+      TagOptionId:
+        Ref: TagOptions2d257ed9efdd670334CD
+    Metadata:
+      aws:cdk:path: CdkS3StaticSite/SCProduct_S3_Static_Site/TagOptionAssociation789b6ca5d3e9
+  SCProductS3StaticSiteTagOptionAssociationca4381ed7c697F1AAAC5:
+    Type: AWS::ServiceCatalog::TagOptionAssociation
+    Properties:
+      ResourceId:
+        Ref: SCProductS3StaticSite388335D1
+      TagOptionId:
+        Ref: TagOptionsa86a8aff1a3eF7932DE6
+    Metadata:
+      aws:cdk:path: CdkS3StaticSite/SCProduct_S3_Static_Site/TagOptionAssociationca4381ed7c69
+  SCProductS3StaticSiteTagOptionAssociationfb2b13fe403096F6E333:
+    Type: AWS::ServiceCatalog::TagOptionAssociation
+    Properties:
+      ResourceId:
+        Ref: SCProductS3StaticSite388335D1
+      TagOptionId:
+        Ref: TagOptions83f0a1c130a3A143430D
+    Metadata:
+      aws:cdk:path: CdkS3StaticSite/SCProduct_S3_Static_Site/TagOptionAssociationfb2b13fe4030
+  CDKMetadata:
+    Type: AWS::CDK::Metadata
+    Properties:
+      Analytics: v2:deflate64:H4sIAAAAAAAA/22LwQrCMBAFv6X3NBpF8CqCV0v1LjFJ69o0K9lEkdJ/11QpFjwt82Z2wcV8zUUmH5Qr3eQWzrw7BKka9p5OZPwdlFEySIs1746y3t8CoCO2rdxIrEAfKrSAaZ7A2GyIUIEc8t+o8KijChNtMeod+nbAb5Ce/oo+mdIQRq/MUKHTkIKeFc9wQTdbciH4KrsSQO6jC9AaXn7uC7eKMasBAQAA
+    Metadata:
+      aws:cdk:path: CdkS3StaticSite/CDKMetadata/Default
+    Condition: CDKMetadataAvailable
+Conditions:
+  CDKMetadataAvailable:
+    Fn::Or:
+      - Fn::Or:
+          - Fn::Equals:
+              - Ref: AWS::Region
+              - af-south-1
+          - Fn::Equals:
+              - Ref: AWS::Region
+              - ap-east-1
+          - Fn::Equals:
+              - Ref: AWS::Region
+              - ap-northeast-1
+          - Fn::Equals:
+              - Ref: AWS::Region
+              - ap-northeast-2
+          - Fn::Equals:
+              - Ref: AWS::Region
+              - ap-south-1
+          - Fn::Equals:
+              - Ref: AWS::Region
+              - ap-southeast-1
+          - Fn::Equals:
+              - Ref: AWS::Region
+              - ap-southeast-2
+          - Fn::Equals:
+              - Ref: AWS::Region
+              - ca-central-1
+          - Fn::Equals:
+              - Ref: AWS::Region
+              - cn-north-1
+          - Fn::Equals:
+              - Ref: AWS::Region
+              - cn-northwest-1
+      - Fn::Or:
+          - Fn::Equals:
+              - Ref: AWS::Region
+              - eu-central-1
+          - Fn::Equals:
+              - Ref: AWS::Region
+              - eu-north-1
+          - Fn::Equals:
+              - Ref: AWS::Region
+              - eu-south-1
+          - Fn::Equals:
+              - Ref: AWS::Region
+              - eu-west-1
+          - Fn::Equals:
+              - Ref: AWS::Region
+              - eu-west-2
+          - Fn::Equals:
+              - Ref: AWS::Region
+              - eu-west-3
+          - Fn::Equals:
+              - Ref: AWS::Region
+              - me-south-1
+          - Fn::Equals:
+              - Ref: AWS::Region
+              - sa-east-1
+          - Fn::Equals:
+              - Ref: AWS::Region
+              - us-east-1
+          - Fn::Equals:
+              - Ref: AWS::Region
+              - us-east-2
+      - Fn::Or:
+          - Fn::Equals:
+              - Ref: AWS::Region
+              - us-west-1
+          - Fn::Equals:
+              - Ref: AWS::Region
+              - us-west-2
+Parameters:
+  BootstrapVersion:
+    Type: AWS::SSM::Parameter::Value<String>
+    Default: /cdk-bootstrap/hnb659fds/version
+    Description: Version of the CDK Bootstrap resources in this environment, automatically retrieved from SSM Parameter Store. [cdk:skip]
+Rules:
+  CheckBootstrapVersion:
+    Assertions:
+      - Assert:
+          Fn::Not:
+            - Fn::Contains:
+                - - "1"
+                  - "2"
+                  - "3"
+                  - "4"
+                  - "5"
+                - Ref: BootstrapVersion
+        AssertDescription: CDK bootstrap stack version 6 required. Please run 'cdk bootstrap' with a recent version of the CDK CLI.
+

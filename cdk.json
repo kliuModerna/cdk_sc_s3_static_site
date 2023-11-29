@@ -15,6 +15,14 @@
     ]
   },
   "context": {
+    "tag_options": {
+      "Cost Center": ["1111", "8912", "1213"],
+      "Environment": ["Test", "Dev", "Production"],
+      "Department": ["Digital", "Commercial", "Manufacturing", "Research"],
+      "Compliance": ["GXP", "NON-GXP", "PII", "NONE"],
+      "Application Name": ["pi", "deltav", "statistica","spotfire","oc3"]
+    },
+
     "@aws-cdk/aws-lambda:recognizeLayerVersion": true,
     "@aws-cdk/core:checkSecretUsage": true,
     "@aws-cdk/core:target-partitions": [
